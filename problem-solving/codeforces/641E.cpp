@@ -1,5 +1,6 @@
 // Codeforces VK Cup 2016 - Round 2. E. Little Artem and Time Machine
-// Fenwick
+// [fenwick], [fenwick tree]
+
 #include <cstdio>
 #include <map>
 #include <vector>

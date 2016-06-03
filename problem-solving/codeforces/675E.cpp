@@ -1,5 +1,5 @@
 // Codeforces 675/E Trains and Statistics
-// Segment Tree, RMQ, update and query
+// [segment tree], [rmq], [update and query]
 
 #include <cstdio>
 typedef long long i64;
