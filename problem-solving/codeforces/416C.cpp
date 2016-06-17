@@ -7,7 +7,7 @@ using namespace std;
 
 class Fenwick {
  public:
-   Fenwick(int size) : _tree(size) {}
+   Fenwick(int size) : _tree(size + 1) {}
 
    void increase(int i, int delta) {
      for (; i < _tree.size(); i += (i & -i)) {
