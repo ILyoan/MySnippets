@@ -1,5 +1,5 @@
 // acmicpc.net/13125 
-// Category : max flow, min cut
+// Category : max flow, min cut, vertex cut
 
 #include <cstdio>
 #include <climits>
