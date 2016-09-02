@@ -149,7 +149,7 @@ class MCMF {
         pq.push(make_pair(0, _source));
         dist[_source] = 0; 
 
-        while (!pq.empty()) {
+        while (!pq.empty() && from[_sink] == NULL) {
             int d = -pq.top().first;
             int u = pq.top().second;
             pq.pop();
